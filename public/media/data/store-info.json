@@ -1,0 +1,166 @@
+{
+  "store": {
+    "name": "UD Sumber Rejeki",
+    "tagline": "Premium Automotive Parts & Accessories",
+    "description": "Leading supplier of high-quality automotive parts, accessories, and performance upgrades for car enthusiasts and professionals.",
+    "founded": "2014",
+    "yearsInBusiness": 10,
+    "mission": "To provide automotive enthusiasts with the highest quality parts and accessories while delivering exceptional customer service and technical expertise.",
+    "vision": "To become the most trusted name in automotive performance and customization across Indonesia."
+  },
+  "contact": {
+    "address": {
+      "street": "Jl. Automotive Street No. 123",
+      "city": "Jakarta",
+      "province": "DKI Jakarta",
+      "postalCode": "12345",
+      "country": "Indonesia"
+    },
+    "phone": {
+      "main": "+62 21 1234 5678",
+      "whatsapp": "+62 812 3456 7890",
+      "fax": "+62 21 1234 5679"
+    },
+    "email": {
+      "general": "info@udsumberrejeki.com",
+      "sales": "sales@udsumberrejeki.com",
+      "support": "support@udsumberrejeki.com",
+      "technical": "tech@udsumberrejeki.com"
+    },
+    "socialMedia": {
+      "facebook": "https://facebook.com/udsumberrejeki",
+      "instagram": "https://instagram.com/udsumberrejeki",
+      "twitter": "https://twitter.com/udsumberrejeki",
+      "youtube": "https://youtube.com/udsumberrejeki",
+      "tiktok": "https://tiktok.com/@udsumberrejeki"
+    }
+  },
+  "businessHours": {
+    "monday": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    "tuesday": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    "wednesday": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    "thursday": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    "friday": {
+      "open": "08:00",
+      "close": "18:00",
+      "closed": false
+    },
+    "saturday": {
+      "open": "09:00",
+      "close": "17:00",
+      "closed": false
+    },
+    "sunday": {
+      "open": "10:00",
+      "close": "16:00",
+      "closed": false
+    }
+  },
+  "services": [
+    {
+      "name": "Parts Sales",
+      "description": "Wide selection of automotive parts and accessories",
+      "icon": "🔧"
+    },
+    {
+      "name": "Installation Services",
+      "description": "Professional installation by certified technicians",
+      "icon": "⚙️"
+    },
+    {
+      "name": "Performance Tuning",
+      "description": "ECU tuning and performance optimization",
+      "icon": "🏎️"
+    },
+    {
+      "name": "Custom Fabrication",
+      "description": "Custom parts and modifications",
+      "icon": "🔨"
+    },
+    {
+      "name": "Technical Support",
+      "description": "Expert advice and technical consultation",
+      "icon": "📞"
+    },
+    {
+      "name": "Warranty Service",
+      "description": "Comprehensive warranty coverage and support",
+      "icon": "🛡️"
+    }
+  ],
+  "brands": [
+    "FlowMaster",
+    "BrightBeam",
+    "AeroTech",
+    "PowerFlow",
+    "RideTech",
+    "TechDash",
+    "HKS",
+    "AEM",
+    "Injen",
+    "MagnaFlow",
+    "Borla",
+    "K&N",
+    "Eibach",
+    "Tein",
+    "BC Racing",
+    "Pioneer",
+    "Alpine",
+    "Kenwood"
+  ],
+  "statistics": {
+    "totalProducts": 500,
+    "happyCustomers": 1000,
+    "yearsExperience": 10,
+    "supportHours": "24/7",
+    "installationTechnicians": 8,
+    "certifications": 15
+  },
+  "paymentMethods": [
+    "Cash",
+    "Bank Transfer",
+    "Credit Card",
+    "Debit Card",
+    "E-Wallet",
+    "Installment Plans"
+  ],
+  "shipping": {
+    "localDelivery": {
+      "available": true,
+      "cost": "Free for orders above $100",
+      "time": "1-2 business days"
+    },
+    "nationalShipping": {
+      "available": true,
+      "cost": "Starting from $15",
+      "time": "3-5 business days"
+    },
+    "internationalShipping": {
+      "available": true,
+      "cost": "Starting from $50",
+      "time": "7-14 business days"
+    }
+  },
+  "warranty": {
+    "standardWarranty": "1 year",
+    "extendedWarranty": "Available for select products",
+    "installationWarranty": "90 days",
+    "returnPolicy": "30 days money back guarantee"
+  }
+} 
