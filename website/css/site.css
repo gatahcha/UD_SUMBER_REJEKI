@@ -1,0 +1,102 @@
+/**
+ * Shared layout / texture styles for static pages.
+ * Tailwind remains loaded via CDN; this file holds non-Tailwind patterns and icons.
+ */
+
+/* --- Material Symbols --- */
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* --- Page textures --- */
+.carbon-texture {
+  background-color: #f8faf9;
+  background-image: linear-gradient(45deg, #dfe8e2 25%, transparent 25%),
+    linear-gradient(-45deg, #dfe8e2 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #dfe8e2 75%),
+    linear-gradient(-45deg, transparent 75%, #dfe8e2 75%);
+  background-size: 4px 4px;
+}
+
+.carbon-texture--dots {
+  background-image: radial-gradient(#2a2a2a 1px, transparent 1px);
+  background-size: 4px 4px;
+  opacity: 0.2;
+}
+
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.03;
+  pointer-events: none;
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAoFE5Bq5JajyVsDaEKMKd76pWDwbwz_YNJNebGbx4qeiYj0voAG7wBAtFlReuBin2_jZl5YQzgpWKEDFYtZq0gJ4LUZ0x0p_8KH7uhdqSTQP2zTWncRvN9pPBuG9EkcuNY1CDNDeGORYHDZ1TK1A-RitCioc-wb5iat8znjTfjD67ExZU3I3emLFA2nmuc6HD0zkL_vUqxTRqJl9jXUs913j2qwnqsfh9J-7zovbQXFjDEofPVFLBY5j5UHP0kTgjT0mCsddr6hraz);
+}
+
+/* Sharp offset shadow using brand black (replaces yellow / orange glow) */
+.brand-block-shadow {
+  box-shadow: 8px 8px 0 0 #171717;
+}
+
+/* Floating WhatsApp: perfect circle (equal box + full rounding) */
+a.site-wa-fab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  padding: 0;
+  border-radius: 9999px;
+  box-sizing: border-box;
+}
+
+/* WhatsApp brand mark (inline SVG) */
+.site-wa-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  flex-shrink: 0;
+  display: block;
+}
+
+a.site-wa-fab .site-wa-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.textured-surface {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+}
+
+.carbon-overlay {
+  background-image: linear-gradient(45deg,
+      rgba(0, 0, 0, 0.1) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 50%,
+      rgba(0, 0, 0, 0.1) 75%,
+      transparent 75%,
+      transparent);
+  background-size: 4px 4px;
+}
+
+.grain-texture {
+  position: relative;
+}
+
+.grain-texture::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCb6vnUrmsjcJHm22d1yHncwsMpBrGMF9HL-T-BFkjKwTzTbFgP2O9fKo83DXxBZD7xY7wXHojuKLfQFwYEreoB79TP4iDSmOgMjbQm6fz7Bc_QlUEv2a2H3_yxxV0QNi5br-8BxqcS2RvEQdY0k5r6Cue8IZfZ7ydZLpGjMp8mJE48qK7TBCKMROKcgnlpZkWyZfFyJI0Z2nK1MLm__fCZeqEcS7heMrhHlqc34z-taFOe9zOlWcOEI5r-dITez1heouhQchrH1gab);
+  opacity: 0.04;
+  pointer-events: none;
+}

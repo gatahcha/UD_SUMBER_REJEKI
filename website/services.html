@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html class="brand-light" lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Layanan — UD SUMBER REJEKI</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Outfit:wght@400;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="./css/site.css" rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-high": "#d5eadd",
+                        "on-secondary-fixed": "#0f2918",
+                        "text-secondary": "#4a6656",
+                        "surface-container": "#eaf5ef",
+                        "on-primary-fixed-variant": "#14532d",
+                        "surface": "#f7fbf9",
+                        "surface-bright": "#e3fcec",
+                        "surface-variant": "#e6efe9",
+                        "primary-container": "#25D366",
+                        "on-primary-fixed": "#14532d",
+                        "on-secondary": "#374151",
+                        "surface-tint": "#DCFCE7",
+                        "secondary-fixed": "#f3f4f6",
+                        "surface-container-highest": "#c8ebd6",
+                        "secondary": "#6b7280",
+                        "outline": "#9bb0a6",
+                        "on-background": "#102318",
+                        "surface-dim": "#ecf8f1",
+                        "primary-fixed-dim": "#404040",
+                        "on-secondary-container": "#374151",
+                        "tertiary": "#0891b2",
+                        "on-tertiary-container": "#0c4a6e",
+                        "error-container": "#fecaca",
+                        "background": "#ffffff",
+                        "inverse-surface": "#0f172a",
+                        "on-primary-container": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#d1fae5",
+                        "inverse-primary": "#171717",
+                        "on-error": "#ffffff",
+                        "tertiary-container": "#ccfbf1",
+                        "on-tertiary": "#ffffff",
+                        "accent-alt-blue": "#1E6FBF",
+                        "tertiary-fixed-dim": "#5eead4",
+                        "tertiary-fixed": "#ecfeff",
+                        "on-surface-variant": "#3f5c4f",
+                        "border": "#c8dbd0",
+                        "on-secondary-fixed-variant": "#475569",
+                        "on-tertiary-fixed": "#082f49",
+                        "on-surface": "#12261a",
+                        "error": "#b91c1c",
+                        "outline-variant": "#aabfb4",
+                        "surface-container-low": "#f3faf6",
+                        "on-tertiary-fixed-variant": "#0369a1",
+                        "accent-alt-red": "#dc2626",
+                        "card-bg": "#ffffff",
+                        "surface-container-lowest": "#fbfffd",
+                        "inverse-on-surface": "#bbf7d0",
+                        "text-primary": "#0f1f17",
+                        "primary": "#14833d",
+                        "secondary-fixed-dim": "#e5e7eb",
+                        "primary-fixed": "#171717",
+                        "on-error-container": "#450a0a",
+                        "minion": "#0a0a0a",
+                        "whatsapp": "#25D366"
+
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "unit": "4px",
+                        "margin-mobile": "16px",
+                        "margin-desktop": "64px",
+                        "section-gap-mobile": "64px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Outfit"],
+                        "display-lg": ["Bebas Neue"],
+                        "headline-sm": ["Bebas Neue"],
+                        "headline-md": ["Bebas Neue"],
+                        "display-lg-mobile": ["Bebas Neue"],
+                        "body-md": ["Outfit"],
+                        "label-bold": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "display-lg": ["80px", { "lineHeight": "1.0", "letterSpacing": "0.02em", "fontWeight": "700" }],
+                        "headline-sm": ["24px", { "lineHeight": "1.2", "fontWeight": "400" }],
+                        "headline-md": ["40px", { "lineHeight": "1.1", "letterSpacing": "0.05em", "fontWeight": "400" }],
+                        "display-lg-mobile": ["48px", { "lineHeight": "1.0", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "600" }]
+                    }
+                },
+            },
+        }
+    </script>
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        .carbon-texture {
+            background-image: radial-gradient(#1a1a1a 1px, transparent 1px), radial-gradient(#1a1a1a 1px, transparent 1px);
+            background-size: 4px 4px;
+            background-position: 0 0, 2px 2px;
+            background-color: #f8faf9;
+        }
+
+        .textured-surface {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.03;
+        }
+    </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md overflow-x-hidden" data-site-page="services">
+    <!-- Top Navigation -->
+    <header class="bg-surface sticky top-0 z-50 border-b border-outline-variant">
+        <div class="flex justify-between items-center px-margin-desktop h-20 w-full max-w-7xl mx-auto">
+            <a href="index.html"
+                class="font-display-lg text-headline-sm text-primary uppercase tracking-widest no-underline hover:opacity-90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-primary">
+                UD SUMBER REJEKI
+            </a>
+            <nav class="hidden md:flex items-center gap-8">
+                <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200"
+                    href="#">Home</a>
+                <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200"
+                    href="#">About</a>
+                <a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Services</a>
+                <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200"
+                    href="#">Gallery</a>
+                <a class="text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200"
+                    href="#">Contact</a>
+            </nav>
+            <button type="button"
+                class="site-lang-toggle text-on-surface-variant font-body-md hover:text-primary transition-colors bg-transparent border-0 cursor-pointer">
+                ID | EN
+            </button>
+        </div>
+    </header>
+    <!-- Page Title Section -->
+    <section class="relative py-section-gap-mobile md:py-24 overflow-hidden carbon-texture">
+        <div class="absolute inset-0 textured-surface pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-margin-desktop relative z-10">
+            <span class="text-primary-container font-label-bold uppercase tracking-[0.2em] mb-4 block">Expert
+                Workshop</span>
+            <h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-text-primary uppercase mb-6"
+                data-i18n="services.heroTitle">LAYANAN KAMI</h1>
+            <p class="max-w-2xl text-text-secondary text-body-lg">
+                Solusi profesional untuk perawatan dan modifikasi mobil Anda. Dari restorasi kaca hingga instalasi audio
+                tingkat lanjut, kami menghadirkan hasil pengerjaan manual yang presisi.
+            </p>
+        </div>
+    </section>
+    <!-- Service Sections Container -->
+    <main class="max-w-7xl mx-auto px-margin-desktop py-section-gap-mobile md:py-section-gap flex flex-col gap-32">
+        <!-- 1. Jasa Poles Kaca Mobil -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-7">
+                <div class="aspect-video bg-card-bg relative overflow-hidden">
+                    <img alt="Car Glass Polishing"
+                        class="w-full h-full object-cover grayscale-[0.5] hover:grayscale-0 transition-all duration-500"
+                        data-alt="A close-up shot of a professional detailer using a rotary polisher on a car's side window. The workshop setting is dimly lit with harsh overhead spotlights reflecting on the wet, polished glass. The color palette is dominated by deep blacks, metallic greys, and sparks of bright light, emphasizing a grit-and-precision industrial aesthetic."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlO1en9ftuDC-muhyUzYz3PzttRHxXs27TBU0BXRW0HpehBDphXtz_yp5eKfAMJN6VWGmaDQh6dQq8yDCqvojWct2yHSX88w-ciiUDGU1jmpD2oy5O9MwaGbkgG1yXobTxyYxHb2tmvXKlSYSyWOu_t3QrrWuGkRlUj27u1WTLm02jsassq8VxZAC_h7xf_p7kIq5BeO0uBBnDkSenBRXGFAQMsStCeyakCJaQ9OtzVZFX4iMQIQTKfrhCQe5wTMUtVjACO5KvhKin" />
+                    <div class="absolute inset-0 border border-outline-variant/30 pointer-events-none"></div>
+                </div>
+            </div>
+            <div class="md:col-span-5 flex flex-col items-start">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="material-symbols-outlined text-primary-container"
+                        data-icon="auto_awesome">auto_awesome</span>
+                    <span class="text-primary-container font-label-bold uppercase">Restoration</span>
+                </div>
+                <h2 class="font-headline-md text-text-primary uppercase mb-6">Jasa Poles Kaca Mobil</h2>
+                <p class="text-text-secondary text-body-md mb-8">
+                    Menghilangkan baret halus, jamur, dan noda air pada kaca mobil Anda. Mengembalikan kejernihan
+                    pandangan demi keamanan dan kenyamanan berkendara di segala cuaca.
+                </p>
+                <div class="bg-surface-container-low p-6 w-full mb-8 border-l-4 border-primary-container">
+                    <p class="font-label-bold text-text-primary uppercase mb-3">Brands Covered:</p>
+                    <p class="text-text-secondary text-body-md">Toyota, Honda, Mitsubishi, BMW, Mercedes-Benz, &amp; All
+                        Major Brands.</p>
+                </div>
+                <a class="bg-primary-container text-on-primary-container font-display-lg text-headline-sm uppercase px-8 py-4 transition-transform active:scale-95 brand-block-shadow"
+                    href="#">
+                    Tanya Sekarang
+                </a>
+            </div>
+        </section>
+        <!-- 2. Jual Beli Kaca Spion & Stoplamp -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-5 order-2 md:order-1 flex flex-col items-start">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="material-symbols-outlined text-primary-container"
+                        data-icon="visibility">visibility</span>
+                    <span class="text-primary-container font-label-bold uppercase">Vision &amp; Safety</span>
+                </div>
+                <h2 class="font-headline-md text-text-primary uppercase mb-6">Kaca Spion &amp; Stoplamp</h2>
+                <p class="text-text-secondary text-body-md mb-8">
+                    Tersedia berbagai pilihan kaca spion elektrik dan lampu stoplamp original (copotan) berkualitas
+                    tinggi. Kami melayani jual beli dan tukar tambah dengan kondisi prima.
+                </p>
+                <div class="bg-surface-container-low p-6 w-full mb-8 border-l-4 border-primary-container">
+                    <p class="font-label-bold text-text-primary uppercase mb-3">Compatible with:</p>
+                    <p class="text-text-secondary text-body-md">Alphard, Fortuner, Pajero, Civic, Innova, and Luxury
+                        SUVs.</p>
+                </div>
+                <a class="bg-primary-container text-on-primary-container font-display-lg text-headline-sm uppercase px-8 py-4 transition-transform active:scale-95 brand-block-shadow"
+                    href="#">
+                    Tanya Sekarang
+                </a>
+            </div>
+            <div class="md:col-span-7 order-1 md:order-2">
+                <div class="aspect-video bg-card-bg relative overflow-hidden">
+                    <img alt="Side Mirrors and Stoplamps" class="w-full h-full object-cover grayscale-[0.4]"
+                        data-alt="A detailed array of premium car side mirrors and tail light assemblies organized on dark metal industrial shelving. The lighting is high-contrast, casting sharp shadows on the matte black surfaces. The image captures a rugged workshop environment where high-quality automotive spare parts are ready for installation, maintaining the dark and aggressive brand aesthetic."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnWp1BZ1DDXrQaa7DW4W5SjxSEvzuPZ00B_6tQ_npWLikH3hyoLSEFst3FKCRHKtOmm69JA5iHHDttA2qCRLKH7NboPiJFL4NNgzZGsY-g6SxvQJRqHTU5t6WlWdDdfJeFq7E39ed6_-SsYn0f4rX0G1GCXZyofEAvaSPBOWF9CKteq8xelE5R-v628gFjP7aAAyNE3TWpatrN1jfGoV9IsSeLUc7pTJXzMT-hlXie-GsClgszp6yTu4gtBrof8OLaaRoVAO_2eMHr" />
+                    <div class="absolute inset-0 border border-outline-variant/30 pointer-events-none"></div>
+                </div>
+            </div>
+        </section>
+        <!-- 3. Interior Bekas Mobil -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-7">
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="aspect-square bg-card-bg border border-outline-variant/30 overflow-hidden">
+                        <img alt="Interior Part 1" class="w-full h-full object-cover opacity-80"
+                            data-alt="A close-up of a luxurious leather car seat with intricate stitching, set against the dark interior of a professional workshop. The lighting is moody and focused on the texture of the material, showing its premium used condition. The overall tone is sophisticated yet industrial, consistent with a high-end car modification shop."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwgt6NC6NzRnYbgfvNHohXEB4eL4hss1CB9UW3E_CGrhRFgCDEUYllFxhy5z6tR1ctESKlWMroZk2CbemnVcv3FnjBa3_o2RATfiIhmjxbVsKAhupXm3vgwJnIuLfmv2h8oRNG2z7-1b5y6nxaS4NjPDKatCW7jf0jaQq26A8NoD-rGk-2rVu_oLZINHb6P1DVRX8p-8QmnopibkYSj296Efb8IB1d05fDUYLCpTq7PxZd4yokMKayaxSXsAjHgIIxONyJ_m-HnzCK" />
+                    </div>
+                    <div class="aspect-square bg-card-bg border border-outline-variant/30 overflow-hidden mt-8">
+                        <img alt="Interior Part 2" class="w-full h-full object-cover opacity-80"
+                            data-alt="A modern car steering wheel and dashboard assembly displayed as a stand-alone part in a workshop. The background is a dark charcoal wall with subtle orange lighting accents. The focus is on the mechanical details and the cleanliness of the used part, highlighting the expertise and quality control of the shop."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpqSlGgiL1FAeWFyiXjyjEppNqsMdlk1a3Pru8eBs4OSZsNr_32kiMDXKMyh27Wd0KfuqfH9_-tx3vKAe5FefsSViVF32hGs4vkZ7vlMThEuozD8UQormgFLNKiUJUtV1xFueCodwC5Zx7zgZswO3hklAj1FPyNl7ggUH7WjRa_IdP_yN5c_2KNuAzFyXzoOywQ4CjK2a6KSj7XoS3gZyJvwo71VB4oc7vu0S_9DZFpgUv1G7xsPy0Fef0vh95_hDkysBzlpLzGW_3" />
+                    </div>
+                </div>
+            </div>
+            <div class="md:col-span-5 flex flex-col items-start">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="material-symbols-outlined text-primary-container" data-icon="chair">chair</span>
+                    <span class="text-primary-container font-label-bold uppercase">Parts Supply</span>
+                </div>
+                <h2 class="font-headline-md text-text-primary uppercase mb-6">Interior Bekas Mobil</h2>
+                <p class="text-text-secondary text-body-md mb-8">
+                    Upgrade kenyamanan kabin Anda dengan komponen interior bekas pilihan. Mulai dari set jok, dashboard,
+                    hingga trim pintu dari berbagai tipe mobil premium dan standar.
+                </p>
+                <div class="bg-surface-container-low p-6 w-full mb-8 border-l-4 border-primary-container">
+                    <p class="font-label-bold text-text-primary uppercase mb-3">Inventory Includes:</p>
+                    <p class="text-text-secondary text-body-md">Leather Seats, Center Consoles, Steering Wheels, Door
+                        Trims.</p>
+                </div>
+                <a class="bg-primary-container text-on-primary-container font-display-lg text-headline-sm uppercase px-8 py-4 transition-transform active:scale-95 brand-block-shadow"
+                    href="#">
+                    Tanya Sekarang
+                </a>
+            </div>
+        </section>
+        <!-- 4. Pasang Audio -->
+        <section class="bg-surface-container-low p-gutter md:p-12 relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-primary-container/10 blur-[120px]"></div>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center relative z-10">
+                <div class="md:col-span-5 flex flex-col items-start">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="material-symbols-outlined text-primary-container"
+                            data-icon="speaker">speaker</span>
+                        <span class="text-primary-container font-label-bold uppercase">Performance Sound</span>
+                    </div>
+                    <h2 class="font-headline-md text-text-primary uppercase mb-6">Pasang Audio Mobil</h2>
+                    <p class="text-text-secondary text-body-md mb-8">
+                        Instalasi sistem suara berkualitas untuk pengalaman berkendara yang lebih hidup. Kami menangani
+                        instalasi Head Unit, Speaker, Subwoofer, hingga tuning audio DSP.
+                    </p>
+                    <div class="bg-background/50 p-6 w-full mb-8 border border-outline-variant">
+                        <p class="font-label-bold text-text-primary uppercase mb-3">Audio Brands:</p>
+                        <p class="text-text-secondary text-body-md">Pioneer, Kenwood, Alpine, JBL, Rockford Fosgate,
+                            &amp; More.</p>
+                    </div>
+                    <a class="bg-primary-container text-on-primary-container font-display-lg text-headline-sm uppercase px-8 py-4 transition-transform active:scale-95 brand-block-shadow"
+                        href="#">
+                        Tanya Sekarang
+                    </a>
+                </div>
+                <div class="md:col-span-7">
+                    <div class="aspect-video bg-card-bg relative overflow-hidden">
+                        <img alt="Audio Installation" class="w-full h-full object-cover grayscale-[0.3]"
+                            data-alt="A technician installing high-end audio components into a car's door panel. Wire connections and speaker mounts are visible in the dimly lit, workshop setting. Sharp orange lighting highlights the tools and the professional equipment. The aesthetic is raw and focused on manual labor and technical expertise, with deep blacks and vibrant orange accents."
+                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB32C11lsA2IZJN-Sj9bLkevrYpFRyFmBQpWgrsDKI3ElLcGZQ7W1zuYNfAu4NZx6XEoOapJ9lhe5nGQQ1lFOU5A1O7bQdC1kwFJ4siN5o5LU7P22fOY6eCmttWxfu2jjmo3mp3CMX5huw-k_6GsvxujlqJcRp4rgZx1Ps12KBCVUetsF2D-XberleyTVUcvGFLVzbGftdTwKm_XTIKCMwrtdFFOIAywI4Bot-7kge5GaVsKls6wcHe8MKRinWLR8lXTeZMU_xxMJlf" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 5. Accessories Interior dan Exterior -->
+        <section class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+            <div class="md:col-span-7">
+                <div class="aspect-[16/9] bg-card-bg relative overflow-hidden group">
+                    <img alt="Car Accessories"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        data-alt="A wide-angle shot of a modified performance car parked inside a dark, industrial workshop. Various exterior accessories like carbon fiber spoilers and custom grills are emphasized by dramatic top-down lighting. The floor is polished concrete reflecting the vehicle's silhouette. The overall vibe is aggressive and high-performance, centered around automotive customization."
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkIr_ZYvqDohA12xq-L_wpntAJMXhDP1y70-kEK6B5-77j_cOBIJ_unaT_3JRw7qHQ3mGa6F93PvFB4pLCsKVzKrCIDStU4jOyjbXe17UmFIH2nUvQSCnIdFPfJbwxY6iUzlNgoQXi566WD5uBhsIBsUt8yHWcBiZXHo_xJS3we-smIo9obuC2yNJ9-ucfbWU1wI7On5FJv9hJg5wxtNVo7q6pBfXWDR-DSN73x9niB8UaT2oGJVUQ87hpoD4kGkbEIDvBvTkBJ9HC" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
+                </div>
+            </div>
+            <div class="md:col-span-5 flex flex-col items-start">
+                <div class="flex items-center gap-3 mb-4">
+                    <span class="material-symbols-outlined text-primary-container"
+                        data-icon="construction">construction</span>
+                    <span class="text-primary-container font-label-bold uppercase">Customization</span>
+                </div>
+                <h2 class="font-headline-md text-text-primary uppercase mb-6">Accessories Interior &amp; Exterior</h2>
+                <p class="text-text-secondary text-body-md mb-8">
+                    Lengkapi tampilan mobil Anda dengan beragam aksesoris premium. Dari body kit, garnish lampu, hingga
+                    console box dan karpet custom untuk mempertegas karakter kendaraan Anda.
+                </p>
+                <div class="grid grid-cols-2 gap-4 w-full mb-8">
+                    <div class="p-4 bg-surface-container-high border border-outline-variant">
+                        <span class="font-label-bold text-text-primary uppercase block">Exterior</span>
+                        <span class="text-text-secondary text-[12px]">Garnish, Grills, Spoiler</span>
+                    </div>
+                    <div class="p-4 bg-surface-container-high border border-outline-variant">
+                        <span class="font-label-bold text-text-primary uppercase block">Interior</span>
+                        <span class="text-text-secondary text-[12px]">Lights, Mats, Consoles</span>
+                    </div>
+                </div>
+                <a class="bg-primary-container text-on-primary-container font-display-lg text-headline-sm uppercase px-8 py-4 transition-transform active:scale-95 brand-block-shadow"
+                    href="#">
+                    Tanya Sekarang
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-surface-dim border-t border-outline-variant mt-section-gap">
+        <div
+            class="max-w-7xl mx-auto px-margin-desktop py-section-gap-mobile grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+            <div class="flex flex-col gap-6">
+                <div class="font-display-lg text-primary text-headline-sm">UD SUMBER REJEKI</div>
+                <p class="text-text-secondary text-body-md max-w-xs">
+                    Bengkel spesialis variasi dan aksesoris mobil dengan pengerjaan manual yang presisi dan berkualitas.
+                </p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h4 class="font-label-bold text-text-primary uppercase mb-2" data-i18n="site.footerAddressHeading">Alamat</h4>
+                <a class="text-text-secondary text-body-md max-w-sm block no-underline hover:underline decoration-primary transition-colors hover:text-primary cursor-pointer"
+                    data-store-maps-url
+                    href="https://www.google.com/maps/search/?api=1&amp;query=Jl.%20Kaca%20Piring%2C%20Gebang%20Tengah%2C%20Gebang%2C%20Kec.%20Patrang%2C%20Kabupaten%20Jember%2C%20Jawa%20Timur%2068117%2C%20Indonesia"
+                    target="_blank" rel="noopener noreferrer" data-i18n-html="site.footerAddressHtml">
+                    Jl. Kaca Piring, Gebang Tengah, Gebang,<br />
+                    Kec. Patrang, Kabupaten Jember, Jawa Timur 68117,<br />
+                    Indonesia
+                </a>
+                <p class="text-text-secondary text-body-md" data-i18n="home.footerHours1">Sen - Sab: 09:00 - 18:00</p>
+                <p class="text-text-secondary text-body-md" data-i18n="home.footerHours2">Minggu: hanya dengan janji</p>
+            </div>
+            <div class="flex flex-col gap-4 md:col-span-2 lg:col-span-2">
+                <h4 class="font-label-bold text-text-primary uppercase mb-2">Links</h4>
+                <div class="flex flex-col gap-2">
+                    <a class="text-on-surface-variant hover:text-primary transition-opacity underline decoration-primary"
+                        href="#">Instagram</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-opacity underline decoration-primary"
+                        href="#">WhatsApp</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-opacity underline decoration-primary"
+                        href="https://www.tiktok.com/@ud.sumber.rejeki.c" target="_blank"
+                        rel="noopener noreferrer">TikTok</a>
+                    <a class="text-on-surface-variant hover:text-primary transition-opacity underline decoration-primary"
+                        data-i18n="contact.socialLocation" href="#">Lokasi</a>
+                </div>
+            </div>
+        </div>
+        <div
+            class="max-w-7xl mx-auto px-margin-desktop py-8 border-t border-outline-variant/30 text-center md:text-left">
+            <p class="text-text-secondary text-body-md" data-i18n="contact.footerRights">© 2026 UD SUMBER REJEKI. HAK CIPTA DILINDUNGI.</p>
+        </div>
+    </footer>
+    <!-- Sticky WhatsApp FAB for Mobile -->
+    <a class="site-wa-fab md:hidden fixed bottom-6 right-6 bg-primary-container text-on-primary-container shadow-xl z-50 transition-transform active:scale-90"
+        href="https://wa.me/6285100041689" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg class="site-wa-icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor"
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+
+    <script type="module" src="./js/site.js"></script>
+</body>
+
+</html>

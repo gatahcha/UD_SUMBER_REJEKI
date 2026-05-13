@@ -10,15 +10,19 @@
   },
   "contact": {
     "address": {
-      "street": "Jl. Automotive Street No. 123",
-      "city": "Jakarta",
-      "province": "DKI Jakarta",
-      "postalCode": "12345",
+      "street": "Jl. Kaca Piring, Gebang Tengah, Gebang, Kec. Patrang",
+      "city": "Kabupaten Jember",
+      "province": "Jawa Timur",
+      "postalCode": "68117",
       "country": "Indonesia"
     },
+    "maps": {
+      "shareUrl": "https://www.google.com/maps/search/?api=1&query=Jl.%20Kaca%20Piring%2C%20Gebang%20Tengah%2C%20Gebang%2C%20Kec.%20Patrang%2C%20Kabupaten%20Jember%2C%20Jawa%20Timur%2068117%2C%20Indonesia",
+      "embedSrc": "https://maps.google.com/maps?q=Jl.%20Kaca%20Piring%2C%20Gebang%20Tengah%2C%20Gebang%2C%20Kec.%20Patrang%2C%20Kabupaten%20Jember%2C%20Jawa%20Timur%2068117%2C%20Indonesia&z=15&t=m&hl=id&output=embed&iwloc=near"
+    },
     "phone": {
-      "main": "+62 21 1234 5678",
-      "whatsapp": "+62 812 3456 7890",
+      "main": "+62 851 0004 1689",
+      "whatsapp": "+62 851-0004-1689",
       "fax": "+62 21 1234 5679"
     },
     "email": {
@@ -32,7 +36,7 @@
       "instagram": "https://instagram.com/udsumberrejeki",
       "twitter": "https://twitter.com/udsumberrejeki",
       "youtube": "https://youtube.com/udsumberrejeki",
-      "tiktok": "https://tiktok.com/@udsumberrejeki"
+      "tiktok": "https://www.tiktok.com/@ud.sumber.rejeki.c"
     }
   },
   "businessHours": {

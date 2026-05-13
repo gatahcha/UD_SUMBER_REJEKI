@@ -1,0 +1,46 @@
+{
+  "screens": [
+    {
+      "title": "Services - UD Sumber Rejeki",
+      "deviceType": "DESKTOP",
+      "width": "2560",
+      "height": "7782"
+    },
+    {
+      "title": "UD Sumber Rejeki Implementation Plan",
+      "deviceType": "DESKTOP",
+      "width": "0",
+      "height": "0"
+    },
+    {
+      "title": "About Us - UD Sumber Rejeki",
+      "deviceType": "DESKTOP",
+      "width": "2560",
+      "height": "7074"
+    },
+    {
+      "title": "UD SUMBER REJEKI Workshop Site",
+      "deviceType": "DESKTOP",
+      "width": "1280",
+      "height": "1024"
+    },
+    {
+      "title": "Contact - UD Sumber Rejeki",
+      "deviceType": "DESKTOP",
+      "width": "2560",
+      "height": "4174"
+    },
+    {
+      "title": "Home - UD Sumber Rejeki",
+      "deviceType": "DESKTOP",
+      "width": "2560",
+      "height": "8368"
+    },
+    {
+      "title": "Gallery - UD Sumber Rejeki",
+      "deviceType": "DESKTOP",
+      "width": "2560",
+      "height": "4272"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "title": "UD Sumber Rejeki Website",
+  "designTheme": {
+    "bodyFont": "OUTFIT",
+    "bodyFontFamily": "Outfit",
+    "colorMode": "DARK",
+    "colorVariant": "FIDELITY",
+    "customColor": "#e85d04",
+    "designMd": "---\nname: UD Sumber Rejeki Design System\ncolors:\n  surface: '#141414'\n  surface-dim: '#1d100b'\n  surface-bright: '#46362f'\n  surface-container-lowest: '#170b07'\n  surface-container-low: '#261813'\n  surface-container: '#2a1c17'\n  surface-container-high: '#352720'\n  surface-container-highest: '#41312b'\n  on-surface: '#f7ddd3'\n  on-surface-variant: '#e1bfb2'\n  inverse-surface: '#f7ddd3'\n  inverse-on-surface: '#3c2d27'\n  outline: '#a98a7e'\n  outline-variant: '#594137'\n  surface-tint: '#ffb596'\n  primary: '#ffb596'\n  on-primary: '#581e00'\n  primary-container: '#f26411'\n  on-primary-container: '#4d1900'\n  inverse-primary: '#a33e00'\n  secondary: '#c9c6c1'\n  on-secondary: '#31302d'\n  secondary-container: '#474743'\n  on-secondary-container: '#b7b5b0'\n  tertiary: '#a6c8ff'\n  on-tertiary: '#003060'\n  tertiary-container: '#2d91ff'\n  on-tertiary-container: '#002a54'\n  error: '#ffb4ab'\n  on-error: '#690005'\n  error-container: '#93000a'\n  on-error-container: '#ffdad6'\n  primary-fixed: '#ffdbcd'\n  primary-fixed-dim: '#ffb596'\n  on-primary-fixed: '#360f00'\n  on-primary-fixed-variant: '#7c2e00'\n  secondary-fixed: '#e5e2dd'\n  secondary-fixed-dim: '#c9c6c1'\n  on-secondary-fixed: '#1c1c19'\n  on-secondary-fixed-variant: '#474743'\n  tertiary-fixed: '#d5e3ff'\n  tertiary-fixed-dim: '#a6c8ff'\n  on-tertiary-fixed: '#001c3b'\n  on-tertiary-fixed-variant: '#004787'\n  background: '#0A0A0A'\n  on-background: '#f7ddd3'\n  surface-variant: '#41312b'\n  card-bg: '#1C1C1E'\n  border: '#2A2A2A'\n  text-primary: '#F0EDE8'\n  text-secondary: '#9A9A9A'\n  accent-alt-red: '#FF2D20'\n  accent-alt-blue: '#1E6FBF'\ntypography:\n  display-lg:\n    fontFamily: Bebas Neue\n    fontSize: 80px\n    fontWeight: '700'\n    lineHeight: '1.0'\n    letterSpacing: 0.02em\n  display-lg-mobile:\n    fontFamily: Bebas Neue\n    fontSize: 48px\n    fontWeight: '700'\n    lineHeight: '1.0'\n  headline-md:\n    fontFamily: Bebas Neue\n    fontSize: 40px\n    fontWeight: '400'\n    lineHeight: '1.1'\n    letterSpacing: 0.05em\n  headline-sm:\n    fontFamily: Bebas Neue\n    fontSize: 24px\n    fontWeight: '400'\n    lineHeight: '1.2'\n  body-lg:\n    fontFamily: Outfit\n    fontSize: 18px\n    fontWeight: '400'\n    lineHeight: '1.6'\n  body-md:\n    fontFamily: Outfit\n    fontSize: 16px\n    fontWeight: '400'\n    lineHeight: '1.6'\n  label-bold:\n    fontFamily: Outfit\n    fontSize: 14px\n    fontWeight: '600'\n    lineHeight: '1.0'\n    letterSpacing: 0.05em\nspacing:\n  unit: 4px\n  gutter: 24px\n  margin-mobile: 16px\n  margin-desktop: 64px\n  section-gap: 120px\n  section-gap-mobile: 64px\n---\n\nimplementation.md\nUD Sumber Rejeki — Introductory Website\nPrepared by VARRO · Web Strategy Consultant\n01 · PROJECT OVERVIEW\nField Detail Store Name UD Sumber Rejeki Business Type Car Variation & Accessories Store (non-ecommerce) Country Indonesia Primary Goal Introductory website — establish credibility online Primary CTA Contact via WhatsApp Target Audience Serious car modifiers (any age) Languages Bahasa Indonesia + English (bilingual)\n02 · SERVICES (Finalized)\n# Service (Bahasa) Service (English) 1 Jasa Poles Kaca Mobil Car Glass Polishing Service 2 Jual Beli Kaca Spion & Stoplamp Berbagai Mobil Buy & Sell Side Mirrors & Stoplamps 3 Interior Bekas Mobil Berbagai Merek Used Car Interior Parts (Multi-Brand) 4 Pasang Audio Car Audio Installation 5 Accessories Interior dan Exterior Interior & Exterior Accessories\n03 · SITE ARCHITECTURE\nPages (5 total)\n/               → Home\n/about          → About\n/services       → Services\n/gallery        → Gallery / Portfolio\n/contact        → Contact\n\nPage-by-Page Breakdown\nHOME /\nPurpose: First impression. Capture attention in under 3 seconds.\nSections:\nHero\nFull-screen background: best finished build photo\nStore name: UD Sumber Rejeki\nTagline (bilingual): e.g., \"Modifikasi Serius, Hasil Nyata\" / \"Serious Mods, Real Results\"\nSingle CTA button: 💬 Hubungi via WhatsApp / Contact via WhatsApp\nServices Snapshot\n5 service cards with icons — no prices, just names and a short descriptor\nLink to full /services page\nWhy Choose Us\n2–3 trust pillars: Experience · Competitive Price · Quality Parts\nKeep it short — serious modifiers skim\nGallery Teaser\n4–6 thumbnail previews of finished builds\nCTA: \"Lihat Semua Hasil Kerja\" / \"See All Our Work\"\nFooter CTA Strip\nWhatsApp button + address + social links\n\nABOUT /about\nPurpose: Build trust and human connection.\nSections:\nOur Story\nShort paragraph about the store's history and founding\nEmphasize years of experience and reputation\nOur Values\n3 pillars with icons: Quality · Honesty · Passion for Cars\nTeam / Workshop Photo (if available)\n\nSERVICES /services\nPurpose: Show the full scope of what the store does — not a price list, a showcase.\nSections: One dedicated section per service:\nPoles Kaca Mobil — Before/after photos, what the process involves\nKaca Spion & Stoplamp — Variety of brands/models available, buy & sell explained\nInterior Bekas — Range of car brands covered, quality assurance note\nPasang Audio — What's installable, types of systems handled\nAccessories Interior & Exterior — Range overview, examples\nEach section ends with a WhatsApp CTA specific to that service.\nExample: \"Tanya soal poles kaca? Chat kami sekarang.\"\n\nGALLERY /gallery\nPurpose: The single most powerful trust signal for serious modifiers.\nSections:\nFilter tabs: All · Exterior · Interior · Audio · Accessories\nMasonry grid layout — Photos of finished builds\nEach card shows: Car model (if shareable) + service type\nLightbox on click — Full-size view\n⚠️ NOTE: Photos to be provided by store owner before implementation. Placeholder assets will be used during development.\n\nCONTACT /contact\nPurpose: Remove all friction from reaching out.\nSections:\nWhatsApp button — Big, prominent, above everything\nStore Address — Full address (agreed to be public)\nGoogle Maps embed — Interactive, pinned to exact location\nOperating Hours\nInstagram link\n\n04 · VISUAL DESIGN SYSTEM\nTheme\nDark & Aggressive — Inspired by carbon fiber, matte finishes, and the workshop floor.\nColor Palette\nRole Color Hex Background Near-black #0A0A0A Surface Deep charcoal #141414 Card background Dark grey #1C1C1E Border / Divider Subtle grey #2A2A2A Primary Accent Burnt orange / Amber #E85D04 Text Primary Off-white #F0EDE8 Text Secondary Muted grey #9A9A9A\n⚠️ Accent color (burnt orange) to be confirmed with store owner. Alternatives: Electric red #FF2D20 · Steel blue #1E6FBF\nTypography\nRole Font Weight Display/Hero Bebas Neue or Barlow Condensed 700–900 Body Outfit or DM Sans 400–500 UI Labels Same as body 600\nFonts loaded via Google Fonts CDN.\nTextures & Effects\nSubtle carbon fiber texture overlay on hero section (CSS background pattern — no image needed)\nVery slight grain noise overlay on dark surfaces\nSharp drop shadows using accent color on key CTA elements\nNo gradients that look \"techy\" or purple — this is a workshop, not a SaaS product\nImagery Rules\nReal photos only — no stock cars\nSlight dark vignette on hero image\nGallery images: no heavy filters, let the work speak\nNo watermarks on website (different from Instagram)\n\n05 · TECHNICAL STACK\nLayer Choice Reason Structure HTML5 + CSS3 + Vanilla JS Fast, no framework overhead Styling CSS custom properties + Flexbox/Grid Maintainable, no build tools needed Icons Lucide Icons or Phosphor Icons (CDN) Lightweight, consistent Fonts Google Fonts (CDN) Free, fast Maps Google Maps Embed API No API key required for basic embed WhatsApp https://wa.me/[number] deep link Works on all devices, no SDK needed Hosting TBD — Vercel / Netlify / cPanel (shared) Static site, any host works Language Static bilingual (toggle button) JS-based text swap, no backend needed\n⚠️ No CMS, no database, no backend required for this phase. This is a fully static website.\n\n06 · BILINGUAL IMPLEMENTATION STRATEGY\nApproach: JavaScript language toggle stored in localStorage\nDefault language on load: Bahasa Indonesia\nToggle button in navbar: 🇮🇩 ID | EN 🇺🇸\nAll text stored in a lang.js config file:\n// Example structure\nconst translations = {\n  id: {\n    hero_tagline: \"Modifikasi Serius, Hasil Nyata\",\n    cta_whatsapp: \"Hubungi via WhatsApp\",\n    nav_home: \"Beranda\",\n    // ...\n  },\n  en: {\n    hero_tagline: \"Serious Mods, Real Results\",\n    cta_whatsapp: \"Contact via WhatsApp\",\n    nav_home: \"Home\",\n    // ...\n  }\n}\nThis keeps translation maintainable without a library or backend.\n\n07 · MOBILE-FIRST RULES\nAll layouts designed for 375px width first, then scaled up\nWhatsApp button: sticky floating button on mobile (bottom-right)\nNavigation: hamburger menu on mobile, full nav on desktop\nGallery grid: 1 column mobile → 2 columns tablet → 3 columns desktop\nHero text: large on desktop, scaled down to not overflow on mobile\nAll tap targets: minimum 48px height\n\n08 · WHATSAPP CTA STRATEGY\nWhatsApp is the conversion endpoint. It appears in 6 places:\nLocation Button Label (ID) Hero section Hubungi via WhatsApp Navbar (desktop) WhatsApp (icon only) Each service section Tanya Sekarang Gallery page Mau Hasil Serupa? Chat Kami Contact page Mulai Chat Sticky mobile button Icon only (green WhatsApp)\nEach button links to: https://wa.me/[number]?text=[pre-filled message per service]\nExample pre-fill for poles kaca: Halo, saya ingin tanya tentang jasa poles kaca mobil.\n\n09 · SEO BASICS (Indonesia-focused)\nEven for an introductory site, these must be in place:\n<title> tags per page — include city name\n<meta description> per page in Bahasa Indonesia\n<h1> only once per page\nImage alt attributes — describe what's in the photo\nGoogle Search Console submission after launch\nGoogle Business Profile — highly recommended as a separate action (not on the website itself but critical for local discovery)\n\n10 · IMPLEMENTATION PHASES\nPhase 1 — Structure & Shell\n[ ] Set up file structure (index.html, /about, /services, /gallery, /contact)\n[ ] Build navigation (desktop + mobile hamburger)\n[ ] Define CSS variables (colors, fonts, spacing)\n[ ] Build Footer\nPhase 2 — Page by Page\n[ ] Home page (hero → services snapshot → trust pillars → gallery teaser)\n[ ] Services page (5 sections)\n[ ] About page\n[ ] Gallery page (with placeholder images)\n[ ] Contact page (WhatsApp + Maps embed)\nPhase 3 — Features\n[ ] Language toggle (ID/EN)\n[ ] Sticky WhatsApp button (mobile)\n[ ] Gallery lightbox\n[ ] WhatsApp pre-filled message links\nPhase 4 — Content & Polish\n[ ] Replace placeholder images with real photos\n[ ] Fill in address, WhatsApp number, Instagram handle\n[ ] Final copy review (bilingual)\n[ ] Mobile responsiveness QA\nPhase 5 — Launch\n[ ] Deploy to hosting\n[ ] Submit to Google Search Console\n[ ] Link website in Instagram bio\n[ ] Link website in WhatsApp Business profile\n\n11 · ASSETS PENDING FROM STORE OWNER\nThese are required before Phase 4 can be completed.\nAsset Status Notes Store photos / builds ⏳ Later Minimum 12 photos recommended for gallery Short store paragraph ⏳ Later For /about page — 3–5 sentences WhatsApp number ⏳ Later Business number preferred Instagram handle ⏳ Later For footer + social link Full store address ⏳ Later For /contact + Maps embed Operating hours ⏳ Later For /contact page Accent color decision ⏳ Decide Burnt orange / Red / Steel blue\n\n12 · OUT OF SCOPE (This Phase)\nThe following are explicitly not part of this build:\n❌ Shopping cart or product listings with prices\n❌ Payment gateway\n❌ Customer login / accounts\n❌ Live chat widget\n❌ Blog or news section\n❌ Online booking system (can be added in Phase 2 later)\n❌ Backend / database\nDocument version: 1.0 | Prepared by VARRO Strategy Ready for implementation upon owner confirmation.",
+    "font": "BEBAS_NEUE",
+    "headlineFont": "BEBAS_NEUE",
+    "headlineFontFamily": "Bebas Neue",
+    "labelFont": "OUTFIT",
+    "labelFontFamily": "Outfit",
+    "namedColors": {
+      "accent-alt-blue": "#1E6FBF",
+      "accent-alt-red": "#FF2D20",
+      "background": "#0A0A0A",
+      "border": "#2A2A2A",
+      "card-bg": "#1C1C1E",
+      "error": "#ffb4ab",
+      "error_container": "#93000a",
+      "inverse_on_surface": "#3c2d27",
+      "inverse_primary": "#a33e00",
+      "inverse_surface": "#f7ddd3",
+      "on_background": "#f7ddd3",
+      "on_error": "#690005",
+      "on_error_container": "#ffdad6",
+      "on_primary": "#581e00",
+      "on_primary_container": "#4d1900",
+      "on_primary_fixed": "#360f00",
+      "on_primary_fixed_variant": "#7c2e00",
+      "on_secondary": "#31302d",
+      "on_secondary_container": "#b7b5b0",
+      "on_secondary_fixed": "#1c1c19",
+      "on_secondary_fixed_variant": "#474743",
+      "on_surface": "#f7ddd3",
+      "on_surface_variant": "#e1bfb2",
+      "on_tertiary": "#003060",
+      "on_tertiary_container": "#002a54",
+      "on_tertiary_fixed": "#001c3b",
+      "on_tertiary_fixed_variant": "#004787",
+      "outline": "#a98a7e",
+      "outline_variant": "#594137",
+      "primary": "#ffb596",
+      "primary_container": "#f26411",
+      "primary_fixed": "#ffdbcd",
+      "primary_fixed_dim": "#ffb596",
+      "secondary": "#c9c6c1",
+      "secondary_container": "#474743",
+      "secondary_fixed": "#e5e2dd",
+      "secondary_fixed_dim": "#c9c6c1",
+      "surface": "#141414",
+      "surface_bright": "#46362f",
+      "surface_container": "#2a1c17",
+      "surface_container_high": "#352720",
+      "surface_container_highest": "#41312b",
+      "surface_container_low": "#261813",
+      "surface_container_lowest": "#170b07",
+      "surface_dim": "#1d100b",
+      "surface_tint": "#ffb596",
+      "surface_variant": "#41312b",
+      "tertiary": "#a6c8ff",
+      "tertiary_container": "#2d91ff",
+      "tertiary_fixed": "#d5e3ff",
+      "tertiary_fixed_dim": "#a6c8ff",
+      "text-primary": "#F0EDE8",
+      "text-secondary": "#9A9A9A"
+    },
+    "overridePrimaryColor": "#e85d04",
+    "overrideSecondaryColor": "#f0ede8",
+    "spacing": {
+      "gutter": "24px",
+      "margin-desktop": "64px",
+      "margin-mobile": "16px",
+      "section-gap": "120px",
+      "section-gap-mobile": "64px",
+      "unit": "4px"
+    },
+    "spacingScale": 2,
+    "typography": {
+      "body-lg": {
+        "fontFamily": "Outfit",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "body-md": {
+        "fontFamily": "Outfit",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "lineHeight": "1.6"
+      },
+      "display-lg": {
+        "fontFamily": "Bebas Neue",
+        "fontSize": "80px",
+        "fontWeight": "700",
+        "letterSpacing": "0.02em",
+        "lineHeight": "1.0"
+      },
+      "display-lg-mobile": {
+        "fontFamily": "Bebas Neue",
+        "fontSize": "48px",
+        "fontWeight": "700",
+        "lineHeight": "1.0"
+      },
+      "headline-md": {
+        "fontFamily": "Bebas Neue",
+        "fontSize": "40px",
+        "fontWeight": "400",
+        "letterSpacing": "0.05em",
+        "lineHeight": "1.1"
+      },
+      "headline-sm": {
+        "fontFamily": "Bebas Neue",
+        "fontSize": "24px",
+        "fontWeight": "400",
+        "lineHeight": "1.2"
+      },
+      "label-bold": {
+        "fontFamily": "Outfit",
+        "fontSize": "14px",
+        "fontWeight": "600",
+        "letterSpacing": "0.05em",
+        "lineHeight": "1.0"
+      }
+    }
+  }
+}
